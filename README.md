@@ -1,32 +1,10 @@
-<!DOCTYPE html>
-<html>
+canvas: hide
 
-<head>
-  <title>Змейка</title>
-  <style>
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-    }
-
-    /*Задаём глобальные параметры*/
-    body {
-      background: black;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    /*Делаем границу вокруг игрового поля*/
-    canvas {
-      border: 1px solid white;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- Рисуем игровое поле -->
+const button = document.querySelector('.start');
+function handleClick() {
+  canvas: flex;
+}
+button.addEventListener('click', handleClick);
   <canvas width="400" height="400" id="game"></canvas>
   <!-- Сам скрипт с игрой -->
   <script>
@@ -162,7 +140,4 @@
     });
     // Запускаем игру
     requestAnimationFrame(loop);
-  </script>
-</body>
 
-</html>
